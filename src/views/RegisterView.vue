@@ -17,7 +17,10 @@ import RegisterForm from '../components/RegisterForm/RegisterForm.vue'
           Realize o seu cadastro e comece agora a organizar suas rotinas, obtendo um melhor controle
           do seu dia a dia.
         </p>
-        <p class="text-login">Já é cadastrado? <a class="link-login" href="#">Clique aqui!</a></p>
+        <p class="text-login">
+          Já é cadastrado?
+          <router-link class="link-login" to="/login">Clique aqui!</router-link>
+        </p>
       </v-col>
       <v-col row="6">
         <RegisterForm />
@@ -31,19 +34,6 @@ import RegisterForm from '../components/RegisterForm/RegisterForm.vue'
   font-size: 76px;
   line-height: 1.25;
   font-weight: 900;
-}
-.tagline {
-  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.accent {
-  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .text-regiter {
