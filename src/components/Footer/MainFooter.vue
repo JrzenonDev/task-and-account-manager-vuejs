@@ -12,7 +12,9 @@ const currentYear = ref(getCurrentYear())
         <p>Released under the MIT License.</p>
         <p>
           Copyright © {{ currentYear }}
-          <a href="https://github.com/JrzenonDev/" target="_blank">JrzenonDev</a>
+          <a href="https://github.com/JrzenonDev/" target="_blank"
+            >JrzenonDev <img class="github-icon" src="../../assets/images/github.svg"
+          /></a>
         </p>
       </v-col>
     </v-row>
@@ -26,5 +28,8 @@ const currentYear = ref(getCurrentYear())
   right: 0;
   left: 0;
   text-align: center;
+}
+.github-icon {
+  color: hsla(160, 100%, 37%, 1);
 }
 </style>
