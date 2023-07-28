@@ -21,6 +21,10 @@ const currentYear = ref(getCurrentYear())
 
 <style scoped>
 .content-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
 }
 </style>
